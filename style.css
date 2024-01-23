@@ -1,0 +1,23 @@
+header {
+    margin: 20px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 30px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section {
+    margin: 30px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    margin: 20px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -5,6 +5,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     </head>
 
     <body>
@@ -13,7 +15,7 @@
             <!-- Navigation Bar -->
             <nav>
                 <ul>
-                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="internship.html">Internship</a></li>
                     <li><a href="projects.html">Projects</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -23,12 +25,53 @@
 
         <section id="projects">
             <h2>Projects</h2>
-            <p>Details of my projects.</p>
+            <p>Here are some of my past activities.</p>
             <!-- Add project details, links, images, etc. -->
+            <!-- Responsive Table -->
+            <div class="table-responsive">
+                <table class="table table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Company</th>
+                            <th scope="col">Role</th>
+                            <th scope="col">Duration</th>
+                            <th scope="col">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- details -->
+                        <tr>
+                            <td>Student Management Investment Fund</td>
+                            <td>Leader of Equity Team</td>
+                            <td>Aug. 2023 - Now</td>
+                            <td>Conducted in-depth stock market research using Bloomberg, analyzing financial statements of various industries and companies;
+                                Utilized financial models to evaluate the return of companies for the upcoming year, including discounted cash flow (DCF) and relative valuation methods;
+                                Prepared and presented investment recommendation reports based on company performance, market trends, and risk assessments, offering specific investment advice and strategies;
+                                </td>
+                        </tr>
+
+                        <tr>
+                            <td>Beall Butterworth Business Competition</td>
+                            <td>Co-founder</td>
+                            <td>Nov. 2022 - May 2023</td>
+                            <td>The main purpose of the project was to use 
+                                artificial intelligence technology to help US 
+                                high school students revise their application 
+                                essays, and to predict the probability of 
+                                college admission by combining the user grades 
+                                and the content of the essay; My main tasks 
+                                included formulating the team schedule, leading 
+                                and promoting the overall progress of the project and 
+                                assigning data collection, etc., and finally completed the 
+                                Concept Paper, business plan and on-site results presentation;</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
-        
+
         <footer>
-            <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+            <p>&copy; 2024 Duoduo Yao. All Rights Reserved.</p>
         </footer>
 
     </body>
