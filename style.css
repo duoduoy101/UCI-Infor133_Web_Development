@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background: #3c84d1;
+    background: #094381;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -54,13 +54,13 @@ section img {
     margin: 0 auto 20px;
 }
 
-a {
+/* a {
     color: #2b7fd8; 
 }
 
 a:hover {
     color: #51155e; 
-}
+} */
 
 footer {
     text-align: center;
